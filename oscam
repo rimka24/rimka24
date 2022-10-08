@@ -15,17 +15,17 @@ emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
 
 [reader]
 label                         = constant.cw
-enable                        = 1
+enable                        = 0
 protocol                      = constcw
 device                        = https://raw.githubusercontent.com/popking159/softcam/master/constant.cw
 caid                          = 2600
 group                         = 1
 
 [reader]
-label                         = POWERVU
+label                         = SoftCam_Emu
 enable                        = 0
 protocol                      = emu
-device                        = https://raw.githubusercontent.com/popking159/softcam/master/SoftCam.Key
+device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Universal/SoftCam.Key
 fallback                      = 0
 disablecrccws_only_for        = 0E00:000000
 caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
@@ -35,6 +35,33 @@ group                         = 1
 emmcache                      = 2,1,2,1
 disablecrccws                 = 1
 emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
+[reader]
+label                         = POWERVU
+enable                        = 0
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/sheypooooor123/softcam-daily/main/SoftCam.Key
+fallback                      = 0
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000
+group                         = 1
+emmcache                      = 2,1,2,1
+disablecrccws                 = 1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
+[reader]
+label                         = emulator
+enable                        = 1
+protocol                      = emu
+device                        = emulator
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 5
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
 
 [reader]
 label                         = C+line_server
