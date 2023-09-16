@@ -21,6 +21,20 @@ device                        = https://raw.githubusercontent.com/popking159/sof
 caid                          = 2600
 group                         = 1
 
+label                         = SoftCam
+enable                        = 0
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/ismail9875/keys/main/SoftCam.Key
+fallback                      = 0
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000
+group                         = 1
+emmcache                      = 2,1,2,1
+disablecrccws                 = 1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
 [reader]
 label                         = SoftCam_Emu
 enable                        = 0
@@ -105,7 +119,7 @@ ident                         = 0500:000000,007400,007800,021110,023800;0604:000
 group                         = 14
 emmcache                      = 2,1,2,1
 emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
-
+[reader]
 
 [reader]
 label                         = emulator
@@ -121,6 +135,7 @@ emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;
 
 [reader]
 label                         = C+line_server
+enable                        = 0
 protocol                      = cccam
 device                        = hostname,port
 user                          = user
@@ -137,6 +152,7 @@ cccreshare                    = 0
 
 [reader]
 label                         = N+line_server
+enable                        = 0
 protocol                      = newcamd
 device                        = hostname,port
 key                           = 0102030405060708091011121314
@@ -152,6 +168,7 @@ audisabled                    = 1
 
 [reader]
 label                         = cs378x_server
+enable                        = 0
 protocol                      = cs378x
 device                        = hostname,port
 user                          = user
@@ -164,6 +181,7 @@ disablecrccws                 = 1
 
 [reader]
 label                         = cs357x_server
+enable                        = 0
 protocol                      = cs357x
 device                        = hostname,port
 user                          = user
@@ -173,3 +191,169 @@ keepalive                     = 1
 group                         = 4
 blockemm-g                    = 1
 disablecrccws                 = 1
+
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,51004
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,51005
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,51003
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,8800
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,51006
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,18802
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,8803
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,18806
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,18803
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,18801
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
+[reader]
+label=v1.satbox.xyz
+enable=1
+protocol=cccam
+device=v1.satbox.xyz,18804
+user=satcam11014
+password=jazair00
+cccversion=2.1.2
+group=1
+inactivitytimeout=1
+reconnecttimeout=30
+lb_weight=100
+cccmaxhops=10
+ccckeepalive=1
+ 
