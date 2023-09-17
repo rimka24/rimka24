@@ -21,6 +21,7 @@ device                        = https://raw.githubusercontent.com/popking159/sof
 caid                          = 2600
 group                         = 1
 
+[reader]
 label                         = SoftCam
 enable                        = 0
 protocol                      = emu
