@@ -2,9 +2,10 @@
 https://cccam.net/free
 https://cccamprime.com/cccam48h.php
 https://cccamfrei.com/free/get.php
-#https://cccamfrei.com/#cccam-free
+https://cccamfrei.com/#cccam-free
 https://cccamas.com/free/get.php
-#https://cccamas.com/#cccam-free
+https://cccamas.com/#cccam-free
+https://cccamsate.com/free
 https://cccam-premium.com/free-cccam/
 https://cccamiptv.club/fr/free-cccam/
 https://www.cccambird2.com/freecccam.php
