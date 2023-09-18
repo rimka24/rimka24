@@ -12,6 +12,6 @@ https://www.cccambird2.com/freecccam.php
 https://cccamia.com/free-cccam/
 https://cccamx.com/free-cccam
 https://cccamazon.com/free/get.php
-#https://cccamazon.com/#cccam-free
+https://cccamazon.com/#cccam-free
 https://www.cccampri.me/cccam48h.php
 https://www.freecline.com/index
