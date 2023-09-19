@@ -14,4 +14,4 @@ https://cccamx.com/free-cccam
 https://cccamazon.com/free/get.php
 https://cccamazon.com/#cccam-free
 https://www.cccampri.me/cccam48h.php
-https://www.freecline.com/index
+#https://www.freecline.com/index
