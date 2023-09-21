@@ -1,5 +1,5 @@
 #################  Lines Free Server ############
-https://cccam.net/free
+https://cccam.net/freecccam
 https://cccamprime.com/cccam48h.php
 https://www.cccampri.me/cccam48h.php
 https://cccamfrei.com/free/get.php
