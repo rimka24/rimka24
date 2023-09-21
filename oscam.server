@@ -168,12 +168,12 @@ disablecrccws                 = 1
 audisabled                    = 1
 
 [reader]
-label                         = cs378x_server
-enable                        = 0
+label                         = cs378x_cserver.tv
+enable                        = 1
 protocol                      = cs378x
-device                        = hostname,port
-user                          = user
-password                      = pass
+device                        = C: 78.129.240.183,1002
+user                          = 947gowur
+password                      = efxnho0q
 services                      = !powervu_fake,!tandberg_fake,!biss_fake,!afn_fake
 keepalive                     = 1
 group                         = 3
@@ -181,12 +181,12 @@ blockemm-g                    = 1
 disablecrccws                 = 1
 
 [reader]
-label                         = cs357x_server
-enable                        = 0
+label                         = cs357x_cserver.tv
+enable                        = 1
 protocol                      = cs357x
-device                        = hostname,port
-user                          = user
-password                      = pass
+device                        = C: 78.129.240.183,1001
+user                          = 947gowur
+password                      = efxnho0q
 services                      = !powervu_fake,!tandberg_fake,!biss_fake,!afn_fake
 keepalive                     = 1
 group                         = 4
